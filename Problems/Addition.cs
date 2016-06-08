@@ -2,20 +2,23 @@ using System;
 
 namespace Problems
 {
-	class Arithmatic{
-	public double add(int a,int b){
+	class ArithmaticCalculaion
+	{
+	public double Add(int a,int b)
+		{
 			int c = 0 ;
-			c = a+b;
+			c = a + b;
 			return c;
 		}
 	
 	}
 	public class Addition
 	{
-		public static void Main(){
-			Arithmatic obj = new Arithmatic ();
+		public static void Main()
+		{
+			ArithmaticCalculaion obj = new ArithmaticCalculaion ();
 
-			Console.WriteLine ("{0}", obj.add (24, 45));
+			Console.WriteLine ("{0}", obj.Add(24, 45));
 		}
 	}
 }
