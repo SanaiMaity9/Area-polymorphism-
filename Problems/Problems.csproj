@@ -33,5 +33,10 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="Area.cs" />
+    <Compile Include="Addition.cs" />
+    <Compile Include="char_occurancy.cs" />
+    <Compile Include="Del_Char.cs" />
+    <Compile Include="Dublicate_char.cs" />
+    <Compile Include="prime_Number.cs" />
   </ItemGroup>
 </Project>

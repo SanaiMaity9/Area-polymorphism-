@@ -25,7 +25,7 @@ namespace Problems
 
 	public class Area
 	{		
-		public  static void Main(){
+		public  void Main(){
 		
 				double answer = 0.0d;
 				Circle obj = new Circle ();
