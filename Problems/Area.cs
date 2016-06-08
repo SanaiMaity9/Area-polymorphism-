@@ -3,35 +3,41 @@ using System;
 
 namespace Problems
 {
-  interface Shape{
-		 double area(int a);
+  interface Shape
+	{
+		 double Area(int value);
 	}
 
-	class Circle : Shape{
-		public double area(int r){
-			double result = 0.0d;
-			result = System.Math.PI * r * r;
-			return result;
+	class Circle : Shape
+	{
+		public double Area(int radiusValue)
+		{
+			double Area_Result = 0.0d;
+			Area_Result = System.Math.PI * radiusValue * radiusValue;
+			return Area_Result;
 		}
 	}
-		class Square : Shape{
-		public double area(int a){
-				double result = 0.0d;
-				result = a * a;
-				return result;
+		class Square : Shape
+	{
+		public double Area(int sideValue)
+		{
+			double Area_Result = 0.0d;
+				Area_Result = sideValue * sideValue	;
+				return Area_Result;
 		}
 
 	}
 
 	public class Area
 	{		
-		public  void Main(){
+		public  void Main()
+		{
 		
-				double answer = 0.0d;
-				Circle obj = new Circle ();
+				double Area_Result = 0.0d;
+				Circle circleObject = new Circle ();
 
-				answer = obj.area (34);
-				Console.WriteLine ("{0}", answer);
+				Area_Result = circleObject.Area (34);
+				Console.WriteLine ("{0}", Area_Result);
 
 			}
 

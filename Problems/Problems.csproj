@@ -34,9 +34,9 @@
   <ItemGroup>
     <Compile Include="Area.cs" />
     <Compile Include="Addition.cs" />
-    <Compile Include="char_occurancy.cs" />
-    <Compile Include="Del_Char.cs" />
-    <Compile Include="Dublicate_char.cs" />
-    <Compile Include="prime_Number.cs" />
+    <Compile Include="CharacterOccurancy.cs" />
+    <Compile Include="PrimeNumber.cs" />
+    <Compile Include="DublicateCharacter.cs" />
+    <Compile Include="DeleteCharacter.cs" />
   </ItemGroup>
 </Project>

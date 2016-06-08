@@ -4,11 +4,11 @@ namespace Problems
 {
 	class ArithmaticCalculaion
 	{
-	public double Add(int a,int b)
+	public double Add(int firstNumber,int secondNumber)
 		{
-			int c = 0 ;
-			c = a + b;
-			return c;
+			int sum = 0 ;
+			sum = firstNumber + secondNumber;
+			return sum;
 		}
 	
 	}
@@ -16,7 +16,7 @@ namespace Problems
 	{
 		public static void Main()
 		{
-			ArithmaticCalculaion obj = new ArithmaticCalculaion ();
+			ArithmaticCalculaion obj = new ArithmaticCalculaion();
 
 			Console.WriteLine ("{0}", obj.Add(24, 45));
 		}
